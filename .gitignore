@@ -1,0 +1,9 @@
+# Composer
+
+/vendor/*
+
+# File Types
+
+*.zip
+*.pnh
+*.jpg
