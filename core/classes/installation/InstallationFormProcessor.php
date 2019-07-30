@@ -254,7 +254,9 @@ class InstallationFormProcessor extends AFormProcessor implements IFormProcessor
         // @todo ! THIS WILL ONLY WORK ON LOCAL -> NEED TO IMPLEMENT FOR LIVE SERVER....
         /* @todo root MySql user/password should be gotten from form submission....i.e., ask user to provide correct credentials. */
         return new DBInstaller(
-            new MySqlQuery("mysql:host=localhost", 'root', 'root'),
+            // username and pw should be obtained from user dynamicaly,
+            // new MySqlQuery("mysql:host=localhost", 'root', 'root'),
+            new MySqlQuery("mysql:host=localhost", 'root', 'iLoveDorian4202019'),
             $this->getDatabaseConfiguration(self::CORE_DB_CONFIG),
             $this->getDatabaseConfiguration(self::APPS_DB_CONFIG),
             $this->getDatabaseConfiguration(self::USERS_DB_CONFIG),

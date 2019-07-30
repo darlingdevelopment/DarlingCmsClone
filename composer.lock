@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "367a9a4d90eb0d75d5ca9540766b71e2",
+    "content-hash": "71108deffdc390b45787ff079e47433e",
     "packages": [],
     "packages-dev": [],
     "aliases": [],
@@ -17,7 +17,8 @@
         "ext-zip": "*",
         "ext-pdo": "*",
         "ext-dom": "*",
-        "ext-ctype": "*"
+        "ext-ctype": "*",
+        "ext-bcmath": "*"
     },
     "platform-dev": []
 }

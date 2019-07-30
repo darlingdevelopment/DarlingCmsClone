@@ -17,7 +17,8 @@
     "ext-zip": "*",
     "ext-pdo": "*",
     "ext-dom": "*",
-    "ext-ctype": "*"
+    "ext-ctype": "*",
+    "ext-bcmath": "*"
   },
   "autoload": {
     "psr-4": {
